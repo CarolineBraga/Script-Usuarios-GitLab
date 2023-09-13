@@ -10,9 +10,12 @@
 ## Descrição
 O projeto consiste numa automação que extrai do GitLab SaaS o relatório dos usuários de um determinado grupo e o exporta para uma planilha do Google Sheets. O objetivo é melhorar gerenciamento de usuários do GitLab, tanto para gestão de custos, como para organização.
 
+Observação: Essa pipeline foi construída para GitLab CI.
+
 ## Tecnologias utilizadas
-### Linguagem
+### Linguagens
 - Python 3
+- YAML
 ### Bibliotecas
 - oauth2client.service_account
 - gspread
